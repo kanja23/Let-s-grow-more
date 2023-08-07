@@ -131,4 +131,4 @@ function isDuplicate(todoText) {
 	const todos = JSON.parse(localStorage.getItem("todos")) || [];
 	const tasks = todos.map((todo) => todo.task);
 	return tasks.includes(todoText);
-    }
+}
